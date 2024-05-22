@@ -1,7 +1,7 @@
 # x-web
 Projeto Final do Bootcamp X-WEB
 Visão Geral
-Bem-vindo ao Projeto Final do Bootcamp X-WEB! Este projeto é a culminação da sua jornada de aprendizado através do nosso curso intensivo de HTML, CSS e Bootstrap. Ao completar este projeto, você demonstrará sua habilidade de criar um site totalmente responsivo e visualmente atraente, exibindo as habilidades e conhecimentos que adquiriu.
+Bem-vindo ao Projeto Final do Bootcamp  fizemos uma pagina X-WEB cursos de programação ! Este projeto é a culminação da sua jornada de aprendizado através do nosso curso intensivo de HTML, CSS e Bootstrap. Ao completar este projeto, você demonstrará sua habilidade de criar um site totalmente responsivo e visualmente atraente, exibindo as habilidades e conhecimentos que adquiriu.
 
 Índice
 Descrição do Projeto
