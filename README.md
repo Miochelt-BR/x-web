@@ -47,6 +47,17 @@ Contato: Use o formulário de contato no rodapé para nos enviar uma mensagem.
 Estrutura do Projeto
 Aqui está uma visão geral da estrutura de arquivos do projeto:
 
+# img
+
+
+
+![top](https://github.com/Miochelt-BR/x-web/assets/93685091/2e249a7e-113f-4c19-bbc2-0a3df8fe77f1)
+![meio](https://github.com/Miochelt-BR/x-web/assets/93685091/ccf1a209-482f-450d-9a77-c8f4b94b4678)
+![final](https://github.com/Miochelt-BR/x-web/assets/93685091/806c96f8-e053-4e33-87cb-73849c02d1d1)
+![estudent](https://github.com/Miochelt-BR/x-web/assets/93685091/ceba3767-050d-4b7e-94ae-b42ddd23b381)
+
+
+
 arduino
 Copiar código
 projeto-final-bootcamp-xweb/
