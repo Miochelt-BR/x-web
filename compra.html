@@ -47,91 +47,107 @@
     <section class="d-flex align-items-center vh-100 vw-100;"
         style="background-image: url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);background-position: center; background-repeat:no-repeat; background-size:cover;">
         <div class="container">
-            <h1><strong>Conheça a X-WEB e se torne um super Dev</strong></h1>
-            <p>A X-WEB está preparada para receber aqueles que querem se tornar SUPER desenvolvedores web, explorando ao
-                máximo o poder e critividade dos nossos alunos,<br>
-                com o nosso curso de formação X-tríade (HTML, CSS E Javascript), além dos cursos individuais das
-                tecnologias mencionadas anteriormente.
+            <section class="container">
+                <div>
+                    <div class="container text-center" id="course">
+                        <h2 class="text-center mb-5 container"><span class="X">X-REGISTER</span></h2>
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Endereço de e-mail</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">A X-web não irá compartilhar seus dados</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <div id="liveAlertPlaceholder"></div>
+                            <button type="button" class="btn btn-primary" id="liveAlertBtn">Continue
+                            </button>
+                        </form>
+                    </div>
 
-            </p>
-            <a class="btn btn-outline-danger container" href="index.html" style="width: 145px;">
-                Inicio!
-            </a>
-
-            </a>
-
-            <!-- <a button type="button" class="btn btn-outline-danger container  " style="width: 145px;">Saiba
-                Mais!</button> -->
+                    <div>
+                        <a class="btn btn-outline-danger container" style="margin-top: 20px;" href="index.html"
+                            style="width: 145px;">
+                            Inicio!
+                        </a>
+                    </div>
+            </section>
         </div>
     </section>
-    <section class="container">
-        <div>
-            <div class="container text-center" id="course">
-                <h2 class="text-center mb-5 container">X-REGISTER</h2>
-                <form>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Endereço de e-mail</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">A X-web não irá compartilhar seus dados</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <a class="btn btn-outline-danger container"
-                        href="https://docs.google.com/forms/d/135mJvrxvQ1HHZG-tl7KyXV4Mfsai1RekyAd3CT7JtTo/edit">Continue</a>
-                </form>
-
-                <footer class="py-5" style="margin-top: 50px;">
-                    <div class="row">
-                        <div class="col-6 col-md-2 mb-3">
-                            <h5>Section</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                            </ul>
+    <section>
+        <footer class="py-5" style="margin-top: 50px;">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3" style="margin-left: 30px;">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#course" class="nav-link p-0 text-muted">Planos</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-muted">Sobre nós</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Cadastre-se para estar sempre X-atualizado</h5>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Endereço de e-mail</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Cadastrar</button>
                         </div>
-                        <div class="col-md-5 offset-md-1 mb-3">
-                            <form>
-                                <h5>Subscribe to our newsletter</h5>
-                                <p>Monthly digest of what's new and exciting from us.</p>
-                                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                                    <label for="newsletter1" class="visually-hidden">Email address</label>
-                                    <input id="newsletter1" type="text" class="form-control"
-                                        placeholder="Email address">
-                                    <button class="btn btn-primary" type="button">Subscribe</button>
-                                </div>
-                            </form>
-                            <ul class="list-unstyled d-flex" style="margin-top: 20px;">
-                                <li class="ms-3">
-                                    <a class="link-dark" href="#">
-                                        <img src="./img/icons8-x-men-50.png" width="24" height="24" alt="X-Men Icon">
-                                    </a>
-                                </li>
-                                <li class="ms-3">
-                                    <a class="link-dark" href="#">
-                                        <img src="./img/icons8-x-men-50.png" width="24" height="24" alt="X-Men Icon">
-                                    </a>
-                                </li>
-                                <li class="ms-3">
-                                    <a class="link-dark" href="#">
-                                        <img src="./img/icons8-x-men-50.png" width="24" height="24" alt="X-Men Icon">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    </form>
+                    <ul class="list-unstyled d-flex" style="margin-top: 20px;">
+                        <li class="ms-3">
+                            <a class="link-dark" href="https://github.com/Miochelt-BR/x-web">
+                                <img src="./img/icons8-github-64.png" width="24" height="24" alt="X-Men Icon">
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="link-dark"
+                                href="https://www.linkedin.com/in/thiago-michel-ari%C3%A7a-pcd-7a8027163/">
+                                <img src="./img/icons8-linkedin-64.png" width="24" height="24" alt="X-Men Icon">
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="link-dark"
+                                href="https://www.linkedin.com/in/dennys-albuquerque-a-andrade-277389129?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">
+                                <img src="./img/icons8-linkedin-64.png" width="24" height="24" alt="X-Men Icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-                    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                        <p>© 2024 Company, Inc. All rights reserved.</p>
-                    </div>
-                </footer>
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2024 Company, Inc. All rights reserved.</p>
+            </div>
+        </footer>
+        <script> const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+            const appendAlert = (message, type) => {
+                const wrapper = document.createElement('div')
+                wrapper.innerHTML = [
+                    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+                    `   <div>${message}</div>`,
+                    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+                    '</div>'
+                ].join('')
+
+                alertPlaceholder.append(wrapper)
+            }
+
+            const alertTrigger = document.getElementById('liveAlertBtn')
+            if (alertTrigger) {
+                alertTrigger.addEventListener('click', () => {
+                    appendAlert('X-aluno cadastrado com sucesso!')
+                })
+            }
+        </script>
+</body>
 
 </html>
