@@ -1,0 +1,21 @@
+.lista_pacote {
+    list-style-image: url(./img/icons8-x-men-30.png);
+}
+.card {
+    box-shadow: 2px 2px 20px 10px rgba(239, 43, 43, 0.92);
+    border-radius: 6px;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 400;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg:rgb(212, 23, 23);
+    --bs-btn-border-color:rgba(198, 16, 16, 0.598) ;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: rgb(231, 17, 17);
+    --bs-btn-hover-border-color:rgb(231, 17, 17);
+    --bs-btn-focus-shadow-rgb:rgb(255, 68, 68);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: rgb(255, 68, 68);
+    --bs-btn-active-border-color: rgb(234, 111, 111);
+  }
