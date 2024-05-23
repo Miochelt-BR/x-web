@@ -19,7 +19,7 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse botao" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link " aria-current="page" href="index.html">Início</a>
@@ -45,7 +45,7 @@
         </div>
     </header>
     <section class="d-flex align-items-center vh-100 vw-100;"
-        style="background-image: url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);background-position: center; background-repeat:no-repeat; background-size:cover;">
+        style="background-image: url(img/desola-lanre-ologun-BVr3XaBiWLU-unsplash.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;">
         <div class="container">
             <section class="container">
                 <div>
@@ -53,21 +53,23 @@
                         <h2 class="text-center mb-5 container"><span class="X">X-REGISTER</span></h2>
                         <form>
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Endereço de e-mail</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
+                                    aria-describedby="emailHelp" placeholder="Endereço de e-mail">
                                 <div id="emailHelp" class="form-text">A X-web não irá compartilhar seus dados</div>
                             </div>
                             <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nome">
                             </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Assunto">
                             </div>
-                            <div id="liveAlertPlaceholder"></div>
-                            <button type="button" class="btn btn-primary" id="liveAlertBtn">Continue
+                            <div class="input-group">
+                                <span class="input-group-text">X-descrição</span>
+                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                            </div>
+                            <div id="liveAlertPlaceholder" style="margin-top: 15px;"></div>
+                            <button type="reset" class="btn btn-primary" id="liveAlertBtn">Continue
                             </button>
                         </form>
                     </div>
@@ -85,7 +87,7 @@
         <footer class="py-5" style="margin-top: 50px;">
             <div class="row">
                 <div class="col-6 col-md-2 mb-3" style="margin-left: 30px;">
-                    <h5>Section</h5>
+                    <img src="./img/Texto_do_seu_parágrafo-removebg-preview.png" style="width: 110px;" alt="Logo">
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-muted">Home</a></li>
                         <li class="nav-item mb-2"><a href="#course" class="nav-link p-0 text-muted">Planos</a></li>
